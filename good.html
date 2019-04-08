@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title></title>
+	    <meta charset="utf-8">
+	    <meta content="IE=dege,chrom=1" http-equiv="X-UA-Compatible">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+	</head>
+
+	<body>
+		<div id="good">
+			<ul>
+                <li v-for="item in items">
+                	<p>asadsa</p>
+                    <img v-bind:src='"http://39.108.213.45:8888/"+item.fullPath' alt="" width="10%" height="10%"/>
+                </li>
+            </ul>
+            <button v-on:click="getImg">获取</button>
+		</div>
+		
+		<div id="login">
+			username: <input type="text" name="username" v-model="username" />
+		    <br />
+		    password: <input type="password" name="password" v-model="password" />
+		    <br />
+		   <button v-on:click="login">login</button>
+		</div>
+		
+		
+		<script src="js/lib/vue.min.js"></script>
+   		<script src="js/lib/vue-resource.js"></script>
+   		<script src="js/good.js"></script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Shiro</title>
+</head>
+<body>
+<form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=UTF-8&method=alipay.trade.page.pay&sign=FeOch%2BCRLexy8zBVYgMkielnYCYgeUewHrAJU5P8AkJaA2AGP9%2Byj4X6LEZqYKa%2FzukkwC7TUE6jZrjiIwei67DijdVqde9mxif0zlr1Uv%2FT6uQnuXSXuzZilkx9MMkXoS8gZ7wlycqRR7GnOoj9sbXwwlEJfeyoj8I9HXHCK5Is04Vh3ux9%2BI%2BIf2WIgpIKohKYuz3prpwGLBrcT%2F1UAWg0prfHhg0k503E2ym9GjjiPapmwLjWI43%2FOgWBovrnxcWEsCSnYjxMgAOULAiVJ1E5GMyBN2MXjW8IZtTC%2FhmmW4nNgd7ioug1vTgvC4nQP1cBjq%2BW6DyaUHb%2BixBJRg%3D%3D&return_url=http%3A%2F%2F127.0.0.1%3A8903%2Falipay%2FreturnUrl&notify_url=http%3A%2F%2F127.0.0.1%3A8903%2Falipay%2FnotifyUrl&version=1.0&app_id=2016092300576764&sign_type=RSA2&timestamp=2018-12-04+19%3A28%3A51&alipay_sdk=alipay-sdk-java-3.3.4.ALL&format=json">
+    <input type="hidden" name="biz_content" value="{&quot;body&quot;:&quot;reading&quot;,&quot;out_trade_no&quot;:&quot;2018-12-04T19:28:49.026&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;,&quot;subject&quot;:&quot;ITAEMBook&quot;,&quot;total_amount&quot;:&quot;\&quot;0.1\&quot;&quot;}">
+    <input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+
+</body>
+</html>
